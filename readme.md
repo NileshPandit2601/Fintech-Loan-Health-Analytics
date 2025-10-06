@@ -36,8 +36,6 @@ As a cloud data analyst, I helped the Treasury Department leverage **BigQuery** 
 - 🔄 Automated refresh (hourly/daily)  
 - ✅ Easy access for stakeholders  
 
-![Loan Dashboard](images/dashboard.jpg)
-
 ---
 
 ## 🛠️ Tools & Technologies
