@@ -1,5 +1,12 @@
 # Fintech Loan Health Analytics
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Google-BigQuery-blue?logo=googlebigquery&logoColor=white" alt="BigQuery Badge">
+  <img src="https://img.shields.io/badge/Looker-Studio-orange?logo=looker&logoColor=white" alt="Looker Studio Badge">
+  <img src="https://img.shields.io/badge/Cloud--Native-Solution-success?logo=googlecloud&logoColor=white" alt="Cloud Native">
+  <img src="https://img.shields.io/badge/Self--Service-Analytics-informational" alt="Self-Service Analytics Badge">
+</p>
+
 > **A cloud-native, self-service analytics project combining Google BigQuery and Looker to collect, process, store, analyze and activate loan data for actionable insights.**
 
 ---
@@ -19,57 +26,61 @@ The workflow reflects a real-world cloud data pipeline and shows my ability to w
 
 ## 🚀 Key Highlights  
 
-- **Cloud-Native Approach** – All data stored and processed in **Google BigQuery**.  
-- **Self-Service Analytics** – Interactive dashboards built with **Looker**.  
-- **Business Focus** – Answers key loan health questions (loan count by year, top customers by income, percentage of outstanding loans, etc.).  
-- **Hands-On Implementation** – Queries, transformations, and dashboard screenshots included.  
+- ✅ Cloud-native pipeline using Google Cloud tools  
+- ✅ Processed & joined raw datasets in BigQuery  
+- ✅ Built KPI-driven dashboards in Looker Studio  
+- ✅ Automated refresh schedules for real-time insights  
+- ✅ Screenshot documentation included for clarity  
 
 ---
 
 ## 🏗️ Project Parts  
 
 ### 🔹 Part 1: Collect, Store & Process Data in BigQuery  
-- Created and explored `fintech` dataset (customers and loans tables).  
-- Imported CSV from Cloud Storage into a new table (`state_region`).  
-- Joined multiple tables and created new tables using **CTAS**.  
-- Worked with nested data and deduplicated loan purposes.  
-- Created aggregated tables like `loan_count_by_year`.  
+- Explored `fintech` dataset (customers and loans tables)  
+- Imported CSV from Cloud Storage into `state_region`  
+- Joined tables and created new ones using CTAS  
+- Worked with nested records & performed deduplication  
+- Aggregated key metrics (e.g. loan count by year)
 
 ### 🔹 Part 2: Analyze & Activate Data in Looker  
-- Built dashboard **Loan Insights** with multiple visualizations.  
-- Added KPI cards, pie charts, bar charts, and tables for business insights.  
-- Implemented automatic refresh schedules for different tiles.  
-- Optimized dashboard layout, colors, and accessibility.  
-- Documented each challenge with screenshots for portfolio use.  
+- Built an interactive dashboard titled "Loan Insights"  
+- Created pie charts, bar graphs, KPIs and data tables  
+- Highlighted insights like income segmentation & loan status  
+- Configured hourly/daily refresh schedules  
+- Optimized layout and improved dashboard accessibility  
 
 ---
 
-## 🗂️ Project Structure  
+## 📄 Executive Summary
+
+A detailed Executive Summary of this project is available here:  
+📎 [Executive Summary PDF](executive_summary.pdf)
+
+---
+
+## ✅ Conclusion
+
+This project illustrates how modern cloud-based tools like BigQuery and Looker Studio can be effectively combined to transform raw financial data into meaningful, self-service business intelligence. From scalable data processing to actionable dashboarding, this pipeline enables data-driven decision-making across the loan lifecycle.
+
+Future improvements could include:  
+
+- Integrating real-time loan transaction data  
+- Deploying predictive models for credit risk assessment  
+- Implementing role-based access to dashboards  
+
+---
+
+## 🗂️ Project Structure
 
 ```bash
 Fintech-Loan-Health-Analytics/
 │
-├── README.md                # This file
-├── pipeline.png             # pipeline diagram
-├── dashboard.jpg            # Screenshot of final dashboard
-├── executive_summary.pdf    # Executive summary of the project
+├── README.md                # Project documentation
+├── pipeline.png             # Cloud data flow diagram
+├── dashboard.jpg            # Final Looker dashboard screenshot
+├── executive_summary.pdf    # PDF of project summary
 │
-└── images/                  # Screenshots for portfolio
-    ├── bigquery/            # Screenshots from Part 1
-    └── looker/              # Screenshots from Part 2
-
-Got it 👍 — here’s a clean version you can drop into your `README.md`:
-
----
-
-### 📄 Executive Summary
-
-A detailed Executive Summary of this project is available [**here**](link-to-your-executive-summary.pdf).
-
----
-
-### ✅ Conclusion
-
-This project demonstrates how **BigQuery** and **Looker Studio** can be combined to transform raw fintech loan data into actionable insights. By leveraging scalable cloud tools, it streamlines data preparation and visualization, enabling faster, data-driven decisions. Future improvements can include real-time data integration and predictive modeling to further enhance risk assessment and operational efficiency.
-
----
+└── images/
+    ├── bigquery/            # Part 1 screenshots (data engineering)
+    └── looker/              # Part 2 screenshots (dashboarding)
