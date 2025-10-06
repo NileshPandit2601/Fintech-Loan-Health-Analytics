@@ -1,59 +1,58 @@
-# 💼 Fintech Loan Health Analytics – Google Cloud Data Analytics Capstone
+# Fintech Loan Health Analytics
 
-**Cloud-based ETL pipelines and self-service dashboards for actionable loan insights at a fintech startup.**
-
----
-
-## 📊 Project Overview
-**TheLook Fintech** provides loans to independent online store owners.  
-As a cloud data analyst, I helped the Treasury Department leverage **BigQuery** and **Looker Enterprise** to monitor loan performance, manage risk, and enable data-driven decisions.
-
-**Key Skills Demonstrated:**  
-- ⚡ Cloud ETL pipelines  
-- 📊 Self-service dashboards  
-- 💡 Actionable business insights  
-- ☁️ Cloud-native analytics  
+> **A cloud-native, self-service analytics project combining Google BigQuery and Looker to collect, process, store, analyze and activate loan data for actionable insights.**
 
 ---
 
-## 🗂️ Data Processing
-- 🔍 Explored loans and customer tables in BigQuery  
-- 📥 Imported CSVs and created tables in the dataset  
-- 🔗 Joined tables & created derived tables using CTAS  
-- 🗂️ Queried nested fields for clean data  
-- 📊 Generated `loan_count_by_year` table using SQL  
+## 📌 Overview  
+This repository contains my capstone project demonstrating end-to-end data analytics in a fintech loan scenario.  
+The project is split into two parts:  
+
+- **Part 1 – Data Engineering in BigQuery**  
+  Collecting, storing, and processing raw loan data using Google BigQuery.  
+- **Part 2 – Data Visualization in Looker**  
+  Analyzing and activating data through dashboards built in Looker Studio (Enterprise).
+
+The workflow reflects a real-world cloud data pipeline and shows my ability to work with self-service analytics tools in a professional setting.
 
 ---
 
-## 📈 Dashboard Highlights
-- 💰 Total Outstanding Loan Amount – Single-value KPI  
-- 🥧 Percentage of Outstanding Loans by Status – Pie chart  
-- 📊 Total Count of Outstanding Loans by State – Top 10 bar chart  
-- 👑 Top 10 Customers by Highest Income – Filtered table  
+## 🚀 Key Highlights  
 
-**Features:**  
-- ✨ Interactive, user-friendly layout  
-- 🔄 Automated refresh (hourly/daily)  
-- ✅ Easy access for stakeholders  
+- **Cloud-Native Approach** – All data stored and processed in **Google BigQuery**.  
+- **Self-Service Analytics** – Interactive dashboards built with **Looker**.  
+- **Business Focus** – Answers key loan health questions (loan count by year, top customers by income, percentage of outstanding loans, etc.).  
+- **Hands-On Implementation** – Queries, transformations, and dashboard screenshots included.  
 
 ---
 
-## 🛠️ Tools & Technologies
-- 🗄️ Google BigQuery  
-- 📊 Looker Studio / Looker Enterprise  
-- 📝 SQL    
-- ☁️ Cloud ETL & analytics concepts  
+## 🏗️ Project Parts  
+
+### 🔹 Part 1: Collect, Store & Process Data in BigQuery  
+- Created and explored `fintech` dataset (customers and loans tables).  
+- Imported CSV from Cloud Storage into a new table (`state_region`).  
+- Joined multiple tables and created new tables using **CTAS**.  
+- Worked with nested data and deduplicated loan purposes.  
+- Created aggregated tables like `loan_count_by_year`.  
+
+### 🔹 Part 2: Analyze & Activate Data in Looker  
+- Built dashboard **Loan Insights** with multiple visualizations.  
+- Added KPI cards, pie charts, bar charts, and tables for business insights.  
+- Implemented automatic refresh schedules for different tiles.  
+- Optimized dashboard layout, colors, and accessibility.  
+- Documented each challenge with screenshots for portfolio use.  
 
 ---
 
-## ✅ Outcome
-- ⚡ Processed large-scale fintech data with ETL pipelines  
-- 📈 Built **self-service dashboards** for interactive exploration  
-- 💡 Delivered **actionable insights** for portfolio management  
-- ☁️ Applied cloud-native analytics confidently in a real-world scenario  
+## 🗂️ Project Structure  
 
----
+```bash
+Fintech-Loan-Health-Analytics/
+│
+├── README.md                # This file
+├── executive_summary.pdf    # Executive summary of the project
+│
+└── images/                  # Screenshots for portfolio
+    ├── bigquery/            # Screenshots from Part 1
+    └── looker/              # Screenshots from Part 2
 
-## 👀 How to View
-1. 🖼️ Dashboard screenshot in `images/` folder  
-2. 📄 Executive summary PDF with methodology and insights
