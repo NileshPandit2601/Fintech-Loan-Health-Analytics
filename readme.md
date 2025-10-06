@@ -43,8 +43,7 @@ As a cloud data analyst, I helped the Treasury Department leverage **BigQuery** 
 ## 🛠️ Tools & Technologies
 - 🗄️ Google BigQuery  
 - 📊 Looker Studio / Looker Enterprise  
-- 📝 SQL  
-- 🐍 Python (optional)  
+- 📝 SQL    
 - ☁️ Cloud ETL & analytics concepts  
 
 ---
