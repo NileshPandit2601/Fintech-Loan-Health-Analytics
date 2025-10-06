@@ -58,3 +58,18 @@ Fintech-Loan-Health-Analytics/
     ├── bigquery/            # Screenshots from Part 1
     └── looker/              # Screenshots from Part 2
 
+Got it 👍 — here’s a clean version you can drop into your `README.md`:
+
+---
+
+### 📄 Executive Summary
+
+A detailed Executive Summary of this project is available [**here**](link-to-your-executive-summary.pdf).
+
+---
+
+### ✅ Conclusion
+
+This project demonstrates how **BigQuery** and **Looker Studio** can be combined to transform raw fintech loan data into actionable insights. By leveraging scalable cloud tools, it streamlines data preparation and visualization, enabling faster, data-driven decisions. Future improvements can include real-time data integration and predictive modeling to further enhance risk assessment and operational efficiency.
+
+---
