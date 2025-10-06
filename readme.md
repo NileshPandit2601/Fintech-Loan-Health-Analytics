@@ -50,6 +50,7 @@ The workflow reflects a real-world cloud data pipeline and shows my ability to w
 Fintech-Loan-Health-Analytics/
 │
 ├── README.md                # This file
+├── pipeline.png             # pipeline diagram
 ├── dashboard.jpg            # Screenshot of final dashboard
 ├── executive_summary.pdf    # Executive summary of the project
 │
